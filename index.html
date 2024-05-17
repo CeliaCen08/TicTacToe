@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+ <script src="script.js" defer></script>
+ 
+ <title>Tic-Tac-Toe - CodeBrainer</title>
+</head>
+
+<body>
+    <h1 class="lobster">Welcome to the Tic-Tac-Toe Game!!!</h1>
+    <fieldset>
+        <legend>SCORE BOARD</legend>
+        <div class = "score">
+            <p class="o">Player O Wins: <span id="o">0</span></p>
+            <p class="x">Player X Wins: <span id="x">0</span></p>
+        </div>
+   </fieldset>
+    <div class="board" id="board">
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+           <div class="cell" data-cell></div>
+       </div>
+
+       <div class="winning-message" id="winningMessage">
+            <div id="winningMessageText"></div>
+            <button id="restartButton">Restart</button>
+       </div>
+   </body>
+</html>
